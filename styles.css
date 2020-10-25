@@ -5,6 +5,8 @@ Phones: 320 - 767
 Tables: 768 - 1023
 Desktop: 1024+ */
 
+/*Desktop*/
+@media (min-width: 1024px) {
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	text-align: center;
@@ -69,7 +71,39 @@ footer ul li {
 	font-size: 1rem;
 	padding: 0.5%;
 }
+}
 
 /*Tablet*/
 @media (min-width: 768px) and (max-width: 1023px) {
+	h1 {
+		
+	}
+	h2 {
+		
+	}
+	h3 {
+		
+	}
+	p {
+		
+	}
+	nav ul li {
+		font-size: 1rem;
+	}
+}
+
+/*Mobile*/
+@media (min-width: 320px) and (max-width: 767px) {
+	h1 {
+		font-size: 1rem;
+	}
+	h2 {
+		
+	}
+	h3 {
+		
+	}
+	p {
+		
+	}
 }
