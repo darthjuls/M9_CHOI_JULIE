@@ -2,11 +2,12 @@
 /* CSS Document */
 /*media (max-width: 1000px) and (min-width: 726px)
 Phones: 320 - 767
-Tables: 768 - 1023
+Tablets: 768 - 1023
 Desktop: 1024+ */
 
+@media (min-width: 1024px){
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: sans-serif;
 	text-align: center;
 	margin: 0;
 	padding: 0;
@@ -21,13 +22,12 @@ h2 {
 	color: #DFA4AA;
 	font-family: 'Sacramento', cursive;
 } 
-h3 {
-	font-size: 1.75rem;
+.caption {
+	font-size: 2rem;
 	font-family: 'Sacramento', cursive;
 	color: #DFA4AA;
 	}
 p {
-	font-family: sans-serif;
 	color: black;
 	font-size: 0.95rem;
 	font-weight: lighter;
@@ -55,12 +55,17 @@ nav ul li {
 	padding: 2%;
 }
 .gallery {
+	width: 24%;
+	float: left;
 	display: inline-block;
+	padding: 2%;
+	margin-left: 4%;
+	margin-bottom: 2%;
 }
 .gallery img {
-	width: 25%;
-	height: 25%;
-}
+	width: 100%;
+	height: auto;
+	}
 footer {
 	background-color: #A26B82;
 	bottom: 0;
@@ -77,41 +82,165 @@ footer ul li {
 	font-size: .9rem;
 	padding: 0.5%;
 }
+}
 
-/*Tablet*/
+/*Tablets*/
 @media (min-width: 768px) and (max-width: 1023px) {
-	h1 {
-		
+body {
+	font-family: sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 3.5rem;
+	color: #DFA4AA;
+	font-family: 'Sacramento', cursive;
+
+}
+h2 {
+	font-size: 2rem;
+	color: #DFA4AA;
+	font-family: 'Sacramento', cursive;
+} 
+.caption {
+	font-size: 1.75rem;
+	font-family: 'Sacramento', cursive;
+	color: #DFA4AA;
 	}
-	h2 {
-		
+p {
+	color: black;
+	font-size: 0.95rem;
+	font-weight: lighter;
+}
+a {
+	color: white;
+}
+nav {
+	background-color: #A26B82;
+	padding: 0.5%;
+}
+nav ul {
+	list-style-type: none;
+	position: center;
+}
+nav ul li {
+	display: inline;
+	font-size: 1rem;
+	padding: 1%;
+}
+.banner img {
+	width: 100%;
+}
+.intro {
+	padding: 2%;
+}
+.gallery {
+	width: 24%;
+	float: left;
+	display: inline-block;
+	padding: 2%;
+	margin-left: 4%;
+	margin-bottom: 2%;
+}
+.gallery img {
+	width: 100%;
+	height: auto;
 	}
-	h3 {
-		
-	}
-	p {
-		
-	}
-	nav ul li {
-		font-size: 1rem;
-	}
-	banner img {
-		width: 100%;
-	}
+footer {
+	background-color: #A26B82;
+	bottom: 0;
+	padding: 2%;
+	clear: both;
+}
+footer ul {
+	color: white;
+	list-style-type: none;
+	position: center;
+}
+footer ul li {
+	display: inline;
+	font-size: .9rem;
+	padding: 0.5%;
+}
 }
 
 /*Mobile*/
 @media (min-width: 320px) and (max-width: 767px) {
-	h1 {
-		font-size: 1rem;
+body {
+	font-family: sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 2rem;
+	color: #DFA4AA;
+	font-family: 'Sacramento', cursive;
+}
+h2 {
+	font-size: 2.5rem;
+	color: #DFA4AA;
+	font-family: 'Sacramento', cursive;
+} 
+.caption {
+	font-size: 2rem;
+	font-family: 'Sacramento', cursive;
+	color: #DFA4AA;
 	}
-	h2 {
-		
+p {
+	color: black;
+	font-size: 0.95rem;
+	font-weight: lighter;
+}
+a {
+	color: white;
+}
+nav {
+	background-color: #A26B82;
+	padding: 0.5%;
+}
+nav ul {
+	list-style-type: none;
+	position: center;
+}
+nav ul li {
+	display: inline;
+	font-size: 1.25rem;
+	padding: 1%;
+}
+.banner img {
+	width: 100%;
+}
+.intro {
+	padding: 2%;
+}
+.gallery {
+	width: 24%;
+	float: left;
+	display: inline-block;
+	padding: 2%;
+	margin-left: 4%;
+	margin-bottom: 2%;
+}
+.gallery img {
+	width: 100%;
+	height: auto;
 	}
-	h3 {
-		
-	}
-	p {
-		
-	}
+footer {
+	background-color: #A26B82;
+	bottom: 0;
+	padding: 2%;
+	clear: both;
+}
+footer ul {
+	color: white;
+	list-style-type: none;
+	position: center;
+}
+footer ul li {
+	display: inline;
+	font-size: .9rem;
+	padding: 0.5%;
+}
 }
