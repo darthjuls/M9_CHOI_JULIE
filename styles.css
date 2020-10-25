@@ -99,7 +99,7 @@ h1 {
 
 }
 h2 {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	color: #DFA4AA;
 	font-family: 'Sacramento', cursive;
 } 
@@ -136,11 +136,9 @@ nav ul li {
 	padding: 2%;
 }
 .gallery {
-	width: 24%;
+	width: 33.33%;
 	float: left;
 	display: inline-block;
-	padding: 2%;
-	margin-left: 4%;
 	margin-bottom: 2%;
 }
 .gallery img {
@@ -174,12 +172,12 @@ body {
 	padding: 0;
 }
 h1 {
-	font-size: 2rem;
+	font-size: 2.25rem;
 	color: #DFA4AA;
 	font-family: 'Sacramento', cursive;
 }
 h2 {
-	font-size: 2.5rem;
+	font-size: 1.75rem;
 	color: #DFA4AA;
 	font-family: 'Sacramento', cursive;
 } 
@@ -216,7 +214,7 @@ nav ul li {
 	padding: 2%;
 }
 .gallery {
-	width: 24%;
+	width: 90%;
 	float: left;
 	display: inline-block;
 	padding: 2%;
