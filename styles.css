@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
+/*media (max-width: 1000px) and (min-width: 726px)
+Phones: 320 - 767
+Tables: 768 - 1023
+Desktop: 1024+ */
+
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	text-align: center;
@@ -24,30 +29,47 @@ a {
 }
 nav {
 	background-color: #A26B82;
+	padding: 1%;
 }
 nav ul {
 	list-style-type: none;
 	position: center;
-	padding: 2%;
 }
 nav ul li {
 	display: inline;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	padding: 2%;
 }
-section {
+.banner img {
+	width: 90%;
+}
+.intro {
 	padding: 2%;
+}
+.gallery {
+	display: inline-block;
+}
+.gallery img {
+	width: 25%;
+	height: 25%;
 }
 footer {
 	background-color: #A26B82;
 	bottom: 0;
+	padding: 2%;
+	clear: both;
 }
 footer ul {
-	font-size: 1rem;
 	color: white;
-	clear: both;
 	list-style-type: none;
+	position: center;
 }
-footer li {
+footer ul li {
 	display: inline;
+	font-size: 1rem;
+	padding: 0.5%;
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1023px) {
 }
