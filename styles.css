@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 3rem;
+	color: #DFA4AA;
+}
+h2 {
+	font-size: 2rem;
+	color: #DFA4AA;
+} 
+p {
+	font-family: 'lato', sans-serif;
+	color: black;
+	font-size: 1rem;
+}
+a {
+	color: white;
+}
+nav {
+	background-color: #A26B82;
+}
+nav ul {
+	list-style-type: none;
+	position: center;
+	padding: 2%;
+}
+nav ul li {
+	display: inline;
+	font-size: 1.5rem;
+	padding: 2%;
+}
+section {
+	padding: 2%;
+}
+footer {
+	background-color: #A26B82;
+	bottom: 0;
+}
+footer ul {
+	font-size: 1rem;
+	color: white;
+	clear: both;
+	list-style-type: none;
+}
+footer li {
+	display: inline;
+}
